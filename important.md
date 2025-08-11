@@ -28,12 +28,6 @@ This repository contains a Bash script (`pipeline.sh`) that automates the proces
   - `ktImportText` (Krona)
   - `wget`, `tar`, `awk`
 
-## Usage
-```bash
-bash pipeline.sh
-
-
-
 
 Missing / Future Improvements
 Parallel processing for multiple samples (GNU parallel support)
@@ -45,3 +39,7 @@ Automated installation of required dependencies
 Error handling for missing tools
 
 Configurable parameters (adapter file, quality thresholds, database versions)
+doesn't include all pipeline v5 database only rfam/models 
+## Usage
+```bash
+bash pipeline.sh
